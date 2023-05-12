@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #a9e34b;
+}
+
+.score {
+  font-size: 1.4rem;
+  text-align: right;
+  color: #ffc078;
+  margin-bottom: 2rem;
+}
+
+#question {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  margin: 2rem;
+  padding: 5rem;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+}
+.input {
+  display: block;
+  width: 100%;
+  font-size: 2.6rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ffc078;
+  color: #ffc078;
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  color: #fff;
+  background-color: #ffc078;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transition: all 1s ease-in;
+  filter: brightness(0.9);
+}
